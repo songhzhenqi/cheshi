@@ -1,0 +1,5 @@
+Host * 
+  IgnoreUnknown UseKeychain
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile PATH_TO_YOUR_SSH_PRIVATE_KEY (e.g. ~/.ssh/id_rsa)
